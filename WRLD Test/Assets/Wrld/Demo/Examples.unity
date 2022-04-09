@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 56.46014404296875
   m_longitudeDegrees: -2.9783248901367188
   m_distanceToInterest: 500
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.78580093383789
   m_longitudeDegrees: -122.4010009765625
   m_distanceToInterest: 800
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.7818717956543
   m_longitudeDegrees: -122.40481567382812
   m_distanceToInterest: 500
@@ -2677,6 +2677,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1347846864}
     m_Modifications:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2687,6 +2691,10 @@ PrefabInstance:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2700,17 +2708,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4852285182402832, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
+        type: 3}
+      propertyPath: ElevationMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
@@ -2719,8 +2724,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
-      propertyPath: ElevationMode
-      value: 1
+      propertyPath: InitialLatitude
+      value: 37.802
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
@@ -2731,11 +2736,6 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialLongitude
       value: -122.406
-      objectReference: {fileID: 0}
-    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
-        type: 3}
-      propertyPath: InitialLatitude
-      value: 37.802
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57065298af691415dbce034417c0c5f0, type: 3}
@@ -2994,6 +2994,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 504808400}
     m_Modifications:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3004,6 +3008,10 @@ PrefabInstance:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3017,18 +3025,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4852285182402832, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4852285182402832, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3041,10 +3037,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4852285182402832, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
-      propertyPath: InitialElevation
-      value: 0.5
+      propertyPath: IndoorMapID
+      value: westport_house
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
@@ -3058,18 +3058,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
-      propertyPath: InitialLongitude
-      value: -2.978238
-      objectReference: {fileID: 0}
-    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
-        type: 3}
-      propertyPath: IndoorMapID
-      value: westport_house
-      objectReference: {fileID: 0}
-    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
-        type: 3}
       propertyPath: IndoorMapFloorId
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
+        type: 3}
+      propertyPath: InitialElevation
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
+        type: 3}
+      propertyPath: InitialLongitude
+      value: -2.978238
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57065298af691415dbce034417c0c5f0, type: 3}
@@ -5478,7 +5478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 56.46052169799805
   m_longitudeDegrees: -2.9795610904693604
   m_distanceToInterest: 500
@@ -7505,7 +7505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -7610,7 +7610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 500
@@ -7950,7 +7950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -8128,7 +8128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -9131,7 +9131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.78580093383789
   m_longitudeDegrees: -122.4010009765625
   m_distanceToInterest: 800
@@ -9221,7 +9221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.801998138427734
   m_longitudeDegrees: -122.40599822998047
   m_distanceToInterest: 1781
@@ -9651,7 +9651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 781677765}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.794410705566406
   m_longitudeDegrees: -122.40799713134766
   m_distanceToInterest: 800
@@ -9816,7 +9816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -10202,7 +10202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.771092
   m_longitudeDegrees: -122.468385
   m_distanceToInterest: 1781
@@ -10403,7 +10403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1369866289}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.78580093383789
   m_longitudeDegrees: -122.4010009765625
   m_distanceToInterest: 800
@@ -11250,6 +11250,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1712194174}
     m_Modifications:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -11260,6 +11264,10 @@ PrefabInstance:
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11273,21 +11281,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4039753574676730, guid: 57065298af691415dbce034417c0c5f0, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4852285182402832, guid: 57065298af691415dbce034417c0c5f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
-        type: 3}
-      propertyPath: InitialElevation
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
@@ -11299,6 +11294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialLatitude
       value: 37.78337
+      objectReference: {fileID: 0}
+    - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
+        type: 3}
+      propertyPath: InitialElevation
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114770630479435736, guid: 57065298af691415dbce034417c0c5f0,
         type: 3}
@@ -11423,7 +11423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.78580093383789
   m_longitudeDegrees: -122.4010009765625
   m_distanceToInterest: 800
@@ -11905,7 +11905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_streamingCamera: {fileID: 1961888020}
-  m_apiKey:
+  m_apiKey: 
   m_latitudeDegrees: 37.78337097167969
   m_longitudeDegrees: -122.40083312988281
   m_distanceToInterest: 1781
@@ -12131,94 +12131,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734474375}
   m_CullTransparentMesh: 0
---- !u!1 &1735774387
+--- !u!1 &1735774387 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2626663581352205354, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2626663580723956889}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1735774391}
-  - component: {fileID: 1735774390}
-  - component: {fileID: 1735774389}
-  - component: {fileID: 1735774388}
-  m_Layer: 0
-  m_Name: FindPointOnTransportNetwork
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1735774388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735774387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6a5500efd5bf7849a4e5e7530d755f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1735774389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735774387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fff97d7cf9e9c44af7bab879872087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1735774390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735774387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e268decdf681504d94f82815d0551b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_streamingCamera: {fileID: 1961888020}
-  m_apiKey: 
-  m_latitudeDegrees: 37.78446960449219
-  m_longitudeDegrees: -122.4012680053711
-  m_distanceToInterest: 500
-  m_headingDegrees: 0
-  m_coordSystem: 0
-  m_streamingLodBasedOnDistance: 0
-  m_materialDirectory: WrldMaterials/
-  m_indoorMapMaterialDirectory: WrldMaterials/Archetypes
-  m_overrideLandmarkMaterial: {fileID: 0}
-  m_useBuiltInCameraControls: 1
-  m_terrainCollisions: 0
-  m_roadCollisions: 0
-  m_buildingCollisions: 0
-  m_enableLabels: 0
-  m_enableIndoorEntryMarkerEvents: 1
-  m_labelCanvas: {fileID: 0}
-  m_uploadMeshes: 0
---- !u!4 &1735774391
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735774387}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736284915
 GameObject:
   m_ObjectHideFlags: 0
@@ -14530,3 +14448,77 @@ Transform:
   m_Father: {fileID: 1114307645}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &2626663580723956889
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2626663581352205354, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_Name
+      value: FindPointOnTransportNetwork
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205358, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626663581352205359, guid: c0c7ff2754468bb44bd9ebe05c64cff6,
+        type: 3}
+      propertyPath: m_streamingCamera
+      value: 
+      objectReference: {fileID: 1961888020}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0c7ff2754468bb44bd9ebe05c64cff6, type: 3}

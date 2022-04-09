@@ -47,7 +47,7 @@ public class BuildingAltitudePicking : MonoBehaviour
             var box = boxAnchor.transform.GetChild(0);
             box.localPosition = Vector3.up * (float)buildingIntersectionPoint.GetAltitude();
 
-            //Destroy(boxAnchor, 2.0f);
+            Destroy(boxAnchor, 2.0f);
         }
     }
     
