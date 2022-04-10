@@ -7,9 +7,9 @@ public class TriggerManager : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag=="Enemy")
+        if (other.gameObject.tag == "Enemy")
         {
-            Destroy(other.gameObject);
+            Destroy(other.gameObject.transform.parent.gameObject);
         }
     }
 }

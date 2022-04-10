@@ -107,7 +107,7 @@ public class FindPointOnTransportNetwork : MonoBehaviour
         sphere.GetComponent<Renderer>().material = material;
         sphere.transform.localScale = Vector3.one * radius;
         sphere.transform.parent = this.transform;
-        //sphere.tag = "Enemy";
+        sphere.tag = "Enemy";
         return sphere;
     }
 
